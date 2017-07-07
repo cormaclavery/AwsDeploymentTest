@@ -3,6 +3,8 @@ os: linux
 files:
   - source: /jar/
     destination: /home/ubuntu/jar
+  - source: /deploy-scripts/
+    destination: /home/ununtu/deploy-scripts
 
 hooks:
   AfterInstall:
