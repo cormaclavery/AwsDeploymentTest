@@ -1,1 +1,2 @@
-java -jar jar/server.jar
+#!/usr/bin/env bash
+exec java -jar /jar/server.jar
