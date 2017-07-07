@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /jar/
-    destination: /jar
+    destination: /home/ubuntu/jar
 
 hooks:
   AfterInstall:
