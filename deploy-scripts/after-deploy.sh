@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-mkdir test/test
-exec java -jar /jar/server.jar
+touch test
+chmod 754 ~/jar/server.jar
+exec java -jar ~/jar/server.jar

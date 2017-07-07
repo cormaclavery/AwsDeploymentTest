@@ -4,7 +4,7 @@ files:
   - source: /jar/
     destination: /home/ubuntu/jar
   - source: /deploy-scripts/
-    destination: /home/ununtu/deploy-scripts
+    destination: /home/ubuntu/deploy-scripts
 
 hooks:
   AfterInstall:
